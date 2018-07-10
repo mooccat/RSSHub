@@ -6,6 +6,7 @@
     "author": {
         "name": "{{@ author || 'RSSHub' }}"
     },
+    "last_build_date":{ lastBuildDate }},
     "items": [
         {{each item}}
         {
