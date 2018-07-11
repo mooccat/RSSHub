@@ -19,7 +19,7 @@
             "title": "{{ $value.title }}",
             "content_html": "<%= ($value.content && $value.content.html) || '' %>",
             "content_text": "<%= ($value.content && $value.content.text) || '' %>",
-            "summary": "{{ $value.description }}",
+            "summary": '{{ $value.description }}',
             "image": "{{ $value.image }}",
             "banner_image": "",
             "date_published": "{{ $value.pubDate }}",
